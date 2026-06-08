@@ -40,9 +40,10 @@ p { line-height: 1.75; }
 .navbar { position: sticky; top: 0; z-index: 40; background: rgba(251,247,239,.92); border-bottom: 1px solid rgba(222,212,195,.72); backdrop-filter: blur(18px); }
 .nav-inner { min-height: 82px; display: grid; grid-template-columns: 230px 1fr auto; gap: 28px; align-items: center; }
 .brand { border: 0; background: transparent; display: inline-flex; align-items: center; gap: 12px; color: var(--ink); text-align: left; padding: 0; }
+.brand-logo { height: 110px; width: auto; object-fit: contain; }
 .brand-mark { width: 48px; height: 48px; border-radius: 999px; display: grid; place-items: center; background: radial-gradient(circle at 30% 30%, #82aa70, var(--forest)); color: #fff; font-weight: 950; box-shadow: 0 16px 32px rgba(23,58,32,.2); transition: transform .25s ease; }
 .brand:hover .brand-mark { transform: rotate(-5deg) scale(1.04); }
-.brand-title { display: block; font-weight: 950; font-size: 1.08rem; letter-spacing: -.03em; }
+.brand-title { display: block; font-weight: 950; font-size: 1.00rem; letter-spacing: -.03em; }
 .brand-subtitle { display: block; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; }
 .nav-links { justify-self: center; display: flex; gap: 32px; align-items: center; }
 .nav-link { position: relative; border: 0; background: transparent; color: var(--ink); padding: 8px 0; font-weight: 850; font-size: .95rem; }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FACEBOOK_URL, MORE_NAV_ITEMS, NAV_ITEMS } from "../data/siteData";
 import { navigateTo } from "../utils/navigation";
+import logo from "/images/Logo.png";
 
 function TopStrip() {
   return (
@@ -29,7 +30,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
       <TopStrip />
       <div className="container nav-inner">
         <button className="brand" onClick={() => go("home")}>
-          <span className="brand-mark">WG</span>
+          <img src={logo} alt="WAsian Green Logo" className="brand-logo" />
           <span>
             <span className="brand-title">WAsian Green</span>
             <span className="brand-subtitle">Pomelo farm story</span>

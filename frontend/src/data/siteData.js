@@ -1,4 +1,4 @@
-export const FACEBOOK_URL = "https://www.facebook.com/vttruyen64?mibextid=wwXIfr&mibextid=wwXIfr";
+export const FACEBOOK_URL = "https://www.facebook.com/WAsianGreen/";
 
 export const POMELO = {
   name: "Pomelo",
